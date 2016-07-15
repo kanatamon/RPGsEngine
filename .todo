@@ -29,7 +29,7 @@
 			- mp 			(integer)
 	1.4 the properties are calculated from the status with rules
 		:rule_1
-			- level		 = exp / ((level^2) * 1000)
+			- level		 = exp / 1000
 			- attk 		 = (str * 2.2) 	+ (agi * 0.8) 	+ (item_weight * 0.4) + item_attk 
 			- magic attk = (int * 2.4) 	+ item_magic_attk
 			- attk speed = (agi * 1.8)	- (item_weight * 0.2)
